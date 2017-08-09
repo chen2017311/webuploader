@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/weui.css">
+    
+    <style>
+    	.header{height:40px; 
+				width: 100%;text-align: center;
+              line-height: 40px;background:#04BE02;
+              color: #ffffff;font-weight: bold;
+              font-size: 18px;}
+    	.weui-grid__icon {width:100% ;height: 138px;}
+    </style>
+	</head>
+	<body>
+		
+		<div class="header">豆瓣网</div>
+		<!--内容-->
+		<div class="weui-tab">
+    	<div class="weui-tab__panel">
+    		
+		<div class="weui-tab__content" ></div>
+        <div class="page__hd">
+        	<p class="page_desc"style="text-align: left;font-size: 16px;">影院热映</p>
+        </div>
+            <div class="weui-grids">
+            	<div class="weui-grid">
+			        <div class="weui-grid__icon">
+			            <img src="img/myImg/p1.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">速度与激情7</label>
+    			</div>
+    			
+    			<div class="weui-grid">
+			        <div class="weui-grid__icon">
+			            <img src="img/myImg/p2.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">蓝精灵</label>
+    			</div>
+    			<div class="weui-grid">
+			        <div class="weui-grid__icon" >
+			            <img src="img/myImg/p2.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">傲慢与偏见</label>
+    			</div>
+    		<div class="weui-grid">
+			        <div class="weui-grid__icon">
+			            <img src="img/myImg/p1.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">速度与激情7</label>
+    			</div>
+    			
+    			<div class="weui-grid">
+			        <div class="weui-grid__icon">
+			            <img src="img/myImg/p2.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">蓝精灵</label>
+    			</div>
+    			<div class="weui-grid">
+			        <div class="weui-grid__icon" >
+			            <img src="img/myImg/p2.jpg" alt="">
+			        </div>
+        	<label class="weui-grid__label">傲慢与偏见</label>
+    			</div>
+    			
+            </div>
+        <!--加载-->    
+        <div class="weui-loadmore">
+        	<i class="weui-loading"></i>
+        	<span class="weui-loadmore__tips">正在加载</span>
+        </div>
+        
+        
+        <div class="weui-tab__content">
+          
+        </div>
+        <div class="weui-tab__content">
+            
+        </div>
+    </div>
+    <div class="weui-tabbar">
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/home.png" alt="">
+            <p class="weui-tabbar__label">首页</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/read.png" alt="">
+            <p class="weui-tabbar__label">阅读</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/movie.png" alt="">
+            <p class="weui-tabbar__label">电影</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/user.png" alt="">
+            <p class="weui-tabbar__label">我的</p>
+            <span class="weui-badge" style="position: absolute;    top: 1px;
+    right: 25px;">8</span>
+        </div>
+    </div>
+</div>
+        
+        
+        
+        </div>
+        </div>
+        
+        <script src="js/jquery-2.1.4.js"></script>
+<script>
+    $('.weui-tabbar__item').on('click',function(){
+        $(this).addClass('weui-bar__item_on').siblings('.weui-tabbar__item').removeClass('weui-bar__item_on');
+        var index = $(this).index();
+        $('.weui-tab__content').eq(index).show().siblings().hide();
+    })
+</script>
+	</body>
+</html>

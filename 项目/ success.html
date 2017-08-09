@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/example.css">
+    <link rel="stylesheet" href="css/weui.css">
+    
+    <style>
+    	.header{height:40px; 
+				width: 100%;text-align: center;
+              line-height: 40px;background:#04BE02;
+              color: #ffffff;font-weight: bold;
+              font-size: 18px;}
+    	
+    </style>
+	</head>
+	<body>
+	<div class="header">豆瓣网</div>
+	
+	<!--登录成功-->
+	<div id="log" style="display: block;>
+    <div class="weui-mask_transparent"></div>
+    <div class="weui-toast" style="margin-top: 20%;">
+        <i class="weui-icon-success-no-circle weui-icon_toast"></i>
+        <div class="weui-toast__content">
+            登录成功
+        </div>
+    </div>
+</div>
+	
+		<!--内容-->
+		<div class="weui-tab">
+    	<div class="weui-tab__panel">
+    		
+		<div class="weui-tab__content" ></div>
+       
+       <div class="weui-msg">
+    <div class="weui-msg__icon-area">
+        <i class="weui-icon-warn weui-icon_msg"></i>
+    </div>
+    <div class="weui-msg__text-area">
+        <div class="weui-msg__title">您还没有登录哦</div>
+        <div class="weui-msg__desc" style="font-size: 12px;">未登录是无法查看的哦，已有账号赶快去登录，没有账号请先注册再去登录哦。</div>
+    </div>
+    <div class="weui-msg__opr-area">
+        <div class="weui-btn-area">
+        	<button class="weui-btn weui-btn_primary">立即登录</button>
+            <button class="weui-btn weui-btn_default">立即注册</button>
+           
+        </div>
+    </div>
+    
+</div>
+            
+        
+        
+        <div class="weui-tab__content">
+          
+        </div>
+        <div class="weui-tab__content">
+            
+        </div>
+    </div>
+    <div class="weui-tabbar">
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/home.png" alt="">
+            <p class="weui-tabbar__label">首页</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/read.png" alt="">
+            <p class="weui-tabbar__label">阅读</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/movie.png" alt="">
+            <p class="weui-tabbar__label">电影</p>
+        </div>
+        <div class="weui-tabbar__item weui-bar__item_on">
+            <img class="weui-tabbar__icon" src="img/myImg/user.png" alt="">
+            <p class="weui-tabbar__label">我的</p>
+            <span class="weui-badge" style="position: absolute;    top: 1px;
+    right: 25px;">8</span>
+        </div>
+    </div>
+</div>
+        
+        
+        
+        </div>
+        </div>
+	</body>
+</html>
