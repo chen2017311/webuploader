@@ -1,0 +1,76 @@
+{
+  "list":[
+    {
+      "class_id":"0",
+      "cover":"img/ico_01.png",
+      "title":"用语言抓住你的学生",
+      "studyCount" : "8学习",
+      "price":"免费  ",
+       "price1":"￥19.9"
+    },
+    {
+      "class_id":"1",
+      "cover":"img/ico_02.png",
+      "title":"英语中表示数字的字眼",
+      "studyCount" : "11学习",
+      "price":"免费 ",
+      "price1":"￥29.9"
+    },
+    {
+      "class_id":"2",
+      "cover":"img/ico_03.png",
+      "title":"面向未来的深度学习",
+      "studyCount" : "8学习",
+      "price":"免费 ",
+      "price1":"￥20.9"
+    },
+    {
+      "class_id":"3",
+      "cover":"img/ico_04.png",
+      "title":"高中数学概况",
+      "studyCount" : "7学习",
+      "price":"免费 ",
+      "price1":"￥19.9"
+    },
+    {
+      "class_id":"4",
+      "cover":"img/ico_05.png",
+      "title":"学术类讲座范例及分析",
+      "studyCount" : "4学习",
+      "price":"免费  ",
+      "price1":"￥19.9"
+    },
+    {
+      "class_id":"5",
+      "cover":"img/ico_06.png",
+      "title":"二年级的小豆包",
+      "studyCount" : "4学习",
+      "price":"免费 ",
+      "price1":"￥29.9"
+    },
+    {
+      "class_id":"6",
+      "cover":"img/ico_07.png",
+      "title":"励志类讲座范例",
+      "studyCount" : "2学习",
+      "price":"免费  ",
+      "price1":"￥9.9"
+    },
+    {
+      "class_id":"7",
+      "cover":"img/ico_08.png",
+      "title":"带你一起练书法",
+      "studyCount" : "3学习",
+      "price":"免费  ",
+      "price1":"￥19.9"
+    },
+    {
+      "class_id":"8",
+      "cover":"img/ico_09.png",
+      "title":"如何不输在起跑线上",
+      "studyCount" : "1学习",
+      "price":"免费  ",
+      "price1":"￥19.9"
+    }
+  ]
+}
