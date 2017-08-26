@@ -1,0 +1,33 @@
+.menu {
+    display: block;
+    height: 70px;
+    line-height: 70px;
+    border-bottom: 1px solid rgba(204, 194, 194, 0.45);
+    
+}
+
+.menu span{
+    float: left;
+    margin-right: 50px;
+    margin-left: 280px;
+  
+}
+.menu span img {
+    vertical-align: initial;
+    width: 120px;
+    height: 30px;
+    padding-top: 15px;
+}
+.menu_ul li{
+    float: left;
+    margin: 0 10px 0 10px;
+    padding-right: 30px;
+  
+}
+
+.divStyle{
+    min-height: 600px;
+	clear:both;
+    background: rgba(251, 251, 251, 0.64);
+
+}

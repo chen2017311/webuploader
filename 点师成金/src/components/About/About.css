@@ -1,0 +1,22 @@
+.wrap {
+    display: flex;
+}
+.about-nav-wrap {
+    width: 10%;
+
+    text-align: center;
+
+    background: #fff;
+    margin: 30px 0 0 280px;
+   
+}
+.about-nav-wrap li{padding-top: 20px;}
+
+/*.about-body-wrap {
+    width: 80%;
+    margin: 30px 0 0 20px;
+    background: #fff;
+}*/
+
+.about-body-wrap img{padding-top: 25px;
+					padding-left: 10px;}

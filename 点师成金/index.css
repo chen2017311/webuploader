@@ -1,0 +1,17 @@
+*{
+    margin:0;
+    padding:0;
+    text-decoration : none;
+    list-style-type:none;
+}
+html,body{
+    min-width: 900px;
+    height:100%;
+}
+.link{
+    color:#000;
+    font-size: 16px;
+}
+.active{
+    color:#F06B1D;
+}

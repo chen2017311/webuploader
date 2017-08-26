@@ -1,0 +1,20 @@
+/*.dirWrap{
+    background: #3B3B3B;
+    position: relative;
+    width: 100%;
+    left: 0px;
+    bottom: 0px;
+    height: 230px;
+    color:#fff;
+}
+.footerText{
+	font-size: 18px;
+	color:#999999;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background: rgba(78, 74, 74, 0.7);
+    height: 30px;
+    line-height: 30px;
+}*/
